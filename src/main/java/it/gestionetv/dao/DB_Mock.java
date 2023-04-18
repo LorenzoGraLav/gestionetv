@@ -14,13 +14,13 @@ public class DB_Mock {
 	static {
 		// preparo una lista mock perché ancora non ho il collegamento alla
 		// base dati
-		LISTA_TELEVISORI.add(new Televisore(1l, "samsung", "galax8", 600D, 40, "SGLX"));
-		LISTA_TELEVISORI.add(new Televisore(2l, "lg", "specialz", 400D, 32, "LGSP"));
-		LISTA_TELEVISORI.add(new Televisore(3l, "hi-Sense", "vision", 290D, 28, "HSVS"));
-		LISTA_TELEVISORI.add(new Televisore(4l, "sony", "sensitive", 230D, 24, "SOSY"));
-		LISTA_TELEVISORI.add(new Televisore(5l, "acer", "spectre",  190D, 22, "ASCT"));
-		LISTA_TELEVISORI.add(new Televisore(6l, "panasonic", "lightLed",  3000D, 70, "PLHT"));
-		LISTA_TELEVISORI.add(new Televisore(7l, "aoc", "gamingSpecial",  770D, 38, "ACGS"));
+		LISTA_TELEVISORI.add(new Televisore(1l, "samsung", "galax8", 600, 40, "SGLX"));
+		LISTA_TELEVISORI.add(new Televisore(2l, "lg", "specialz", 400, 32, "LGSP"));
+		LISTA_TELEVISORI.add(new Televisore(3l, "hi-Sense", "vision", 290, 28, "HSVS"));
+		LISTA_TELEVISORI.add(new Televisore(4l, "sony", "sensitive", 230, 24, "SOSY"));
+		LISTA_TELEVISORI.add(new Televisore(5l, "acer", "spectre",  190, 22, "ASCT"));
+		LISTA_TELEVISORI.add(new Televisore(6l, "panasonic", "lightLed",  3000, 70, "PLHT"));
+		LISTA_TELEVISORI.add(new Televisore(7l, "aoc", "gamingSpecial",  770, 38, "ACGS"));
 	}
 
 	public static Long getNexIdAvailable() {

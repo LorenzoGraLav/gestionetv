@@ -1,3 +1,4 @@
+
 <%@page import="it.gestionetv.model.Televisore"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
@@ -16,6 +17,7 @@
 		<p>Modello  <%= televisoreInPagina.getModello() %> </p>
 		
 		<p>Prezzo    <%= televisoreInPagina.getPrezzo() %> </p>
+		
 		
 		<p>NumeroPollici   <%= televisoreInPagina.getNumeroPollici() %> </p>
 		

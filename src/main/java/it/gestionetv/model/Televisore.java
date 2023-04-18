@@ -4,7 +4,7 @@ public class Televisore {
 	private Long idTelevisore;
 	private String marca;
 	private String modello;
-	private Double prezzo;
+	private Integer prezzo;
 	private Integer numeroPollici;
 	private String codice;
 	
@@ -18,7 +18,7 @@ public class Televisore {
 		this.modello = modello;
 	}
 
-	public Televisore(String marca, String modello, Double prezzo, Integer numeroPollici, String codice) {
+	public Televisore(String marca, String modello, Integer prezzo, Integer numeroPollici, String codice) {
 		super();
 		this.marca = marca;
 		this.modello = modello;
@@ -27,7 +27,7 @@ public class Televisore {
 		this.codice = codice;
 	}
 
-	public Televisore(Long idTelevisore, String marca, String modello, Double prezzo, Integer numeroPollici,
+	public Televisore(Long idTelevisore, String marca, String modello, Integer prezzo, Integer numeroPollici,
 			String codice) {
 		super();
 		this.idTelevisore = idTelevisore;
@@ -62,11 +62,11 @@ public class Televisore {
 		this.modello = modello;
 	}
 
-	public Double getPrezzo() {
+	public Integer getPrezzo() {
 		return prezzo;
 	}
 
-	public void setPrezzo(Double prezzo) {
+	public void setPrezzo(Integer prezzo) {
 		this.prezzo = prezzo;
 	}
 

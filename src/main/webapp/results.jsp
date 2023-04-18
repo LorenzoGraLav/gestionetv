@@ -52,6 +52,7 @@
 	</table>
 	<div align="center" class="margin-top-10px">
 		<a href="searchForm.jsp" >Torna alla Ricerca</a>
+		<a href="PrepareInsertServlet">Inserisci Televisore</a>
 		
 	</div>
 	
